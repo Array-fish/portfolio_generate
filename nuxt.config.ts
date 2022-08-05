@@ -12,7 +12,7 @@ export default defineNuxtConfig({
             }
         }
     },
-   app:{
-    baseURL: '/portofolio'
-   }
+//    app:{
+//        baseURL: '/portfolio'
+//    }
 })
