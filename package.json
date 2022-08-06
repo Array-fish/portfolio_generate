@@ -4,6 +4,7 @@
     "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
+    "local_generate": "npm run generate && cp -rf ./.output/public ./docs",
     "preview": "nuxi preview"
   },
   "devDependencies": {
