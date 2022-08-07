@@ -5,7 +5,7 @@
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "move__nuxt": "mv ./.output/public/_nuxt ./.output/public/portfolio",
-    "gp_generate": "npm run generate && npm run move__nuxt && mkdir -p ./docs && cp -rf ./.output/public/portfolio ./docs",
+    "gp_generate": "npm run generate && npm run move__nuxt && mkdir -p ./docs && touch ./docs/.nojekyll && cp -rf ./.output/public/* ./docs",
     "start-static": "http-server -c-1 ./.output/public",
     "start-static-gp": "http-server -c-1 ./docs",
     "preview": "nuxi preview"
