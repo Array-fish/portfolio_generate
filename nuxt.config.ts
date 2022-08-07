@@ -14,5 +14,6 @@ export default defineNuxtConfig({
     },
    app:{
        baseURL: '/portfolio'
-   }
+   },
+//    ssr: false,
 })

@@ -4,8 +4,9 @@
     "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
-    "gp_generate": "npm run generate && cp -rf ./.output/public/* ./docs",
-    "start-static": "http-server ./.output/public",
+    "move__nuxt": "mv ./.output/public/_nuxt ./.output/public/portfolio",
+    "gp_generate": "npm run generate && npm run move__nuxt && mkdir -p ./docs && cp -rf ./.output/public/portfolio ./docs",
+    "start-static": "http-server -c-1 ./.output/public",
     "preview": "nuxi preview"
   },
   "devDependencies": {
