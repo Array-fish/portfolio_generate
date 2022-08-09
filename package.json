@@ -5,7 +5,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "copy__nuxt": "cp -r ./.output/public/_nuxt ./.output/public/portfolio",
-    "gp_generate": "npm run generate && npm run copy__nuxt && mkdir -p ./docs && touch ./docs/.nojekyll && cp -rf ./.output/public/* ./docs",
+    "gp_generate": "npm run generate && npm run copy__nuxt && mkdir -p ./docs && touch ./.nojekyll && cp -rf ./.output/public/* ./docs",
     "start-static": "http-server -c-1 ./dist",
     "start-static-gp": "http-server -c-1 ./docs",
     "preview": "nuxt preview"

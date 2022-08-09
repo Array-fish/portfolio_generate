@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         }
     },
    app:{
+    //    baseURL: '/pages-test'
        baseURL: '/portfolio'
    },
 //    ssr: false,
