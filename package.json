@@ -1,14 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxi build",
-    "dev": "nuxi dev",
-    "generate": "nuxi generate",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "copy__nuxt": "cp -r ./.output/public/_nuxt ./.output/public/portfolio",
     "gp_generate": "npm run generate && npm run copy__nuxt && mkdir -p ./docs && touch ./docs/.nojekyll && cp -rf ./.output/public/* ./docs",
-    "start-static": "http-server -c-1 ./.output/public",
+    "start-static": "http-server -c-1 ./dist",
     "start-static-gp": "http-server -c-1 ./docs",
-    "preview": "nuxi preview"
+    "preview": "nuxt preview"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "daisyui": "^2.19.1",
-    "nuxi": "^3.0.0-rc.6"
+    "nuxt": "^3.0.0-rc.6"
   }
 }

@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-cb24f976.mjs",
+    "file": "entry-f0f5c724.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -15,7 +15,7 @@
     ]
   },
   "virtual:nuxt:/home/arrayfish/nuxt_portfolio/.nuxt/error-component.mjs": {
-    "file": "error-component-67d03cfa.mjs",
+    "file": "error-component-d68a536d.mjs",
     "src": "virtual:nuxt:/home/arrayfish/nuxt_portfolio/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -27,7 +27,7 @@
     ]
   },
   "pages/about.vue": {
-    "file": "about-da848e2f.mjs",
+    "file": "about-b0dab832.mjs",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -35,7 +35,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-954ec282.mjs",
+    "file": "index-f9010344.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -43,7 +43,7 @@
     ]
   },
   "pages/works/index.vue": {
-    "file": "index-9c271a74.mjs",
+    "file": "index-0a625d51.mjs",
     "src": "pages/works/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -51,7 +51,7 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-dddf7cbd.mjs",
+    "file": "default-6c58b93e.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -59,7 +59,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "error-404-650eed0b.mjs",
+    "file": "error-404-49d2a3f9.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -70,7 +70,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "error-500-8932193d.mjs",
+    "file": "error-500-c956306c.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
